@@ -67,3 +67,73 @@ body{
     padding: 20px 0;
 }
 
+
+
+
+
+
+/* ------------------------------------------------------------- */
+
+#exercise2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px 0;
+
+    background-color: #2d3034;
+    border-radius: 10px;
+    border: 2px solid white;
+
+    color: white;
+    text-align: center;
+}
+
+#exercise2 h2{
+
+    font-size: 2em;
+}
+
+#exercise2 button{
+    background-color: #c40f24;
+    color: white;
+
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#exercise2 button:hover{
+    background-color: #980314;
+}
+
+#exercise2 #exercise2-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#exercise2 #output-wrapper{
+    display: flex;
+    gap: 50px;
+
+}
+
+#exercise2 #user, #exercise2 #pc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#exercise2 img{
+    
+    display: none;
+    width: 100px;
+}
+
