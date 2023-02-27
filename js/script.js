@@ -115,6 +115,15 @@ rollDices.addEventListener("click", function(){
     userDiceEl.style.display = "block";
     pcDiceEl.style.display = "block";
 
+    // dichiaro la variabili delle info dei dadi per poterli visualizzare nel DOM
+    let userInfoEl = document.getElementById("user-info");
+    let pcInfoEl = document.getElementById("pc-info");
+
+    // rendo visibili le info dei dadi 
+    userInfoEl.style.display = "block";
+    pcInfoEl.style.display = "block";
+
+
     // attribuisco alla src dell'immagine il valore randomico generato per inserire l'immagine del dado corretto
     userDiceEl.setAttribute("src", "img/" + userNumber + ".png");
     pcDiceEl.setAttribute("src", "img/" + pcNumber + ".png")

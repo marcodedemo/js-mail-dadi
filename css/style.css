@@ -132,8 +132,12 @@ body{
 }
 
 #exercise2 img{
-    
+
     display: none;
     width: 100px;
+}
+
+#exercise2 #user-info, #exercise2 #pc-info{
+    display: none;
 }
 
